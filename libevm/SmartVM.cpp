@@ -43,7 +43,7 @@ namespace
 	{
 		bytes code;
 		h256 codeHash;
-		evm_mode mode;
+		evm_revision mode;
 		uint32_t flags;
 
 		static JitTask createStopSentinel() { return JitTask(); }
